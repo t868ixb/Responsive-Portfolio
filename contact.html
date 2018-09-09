@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>IBayon Responsive-Portfolio</title>
+   <!-- My CSS.  Although not sure if it's ok to have both...-->
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+  
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    
+  <!-- I can't figure out what's overwriting the backgroud color so I added this to put it back.. -->
+  <style>
+  body {
+    /* background-color: red; */
+    background-color: lightgray;
+}
+  </style>
+  
+</head>
+
+<body>
+  <!-- The navbar as a row instead of using NAV -->
+        <div class="row">
+                <div class="col-md-9">
+                    <h1>Isaac Bayon</h1>
+                </div>
+                
+                <div class="col-md-1">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../Responsive-Portfolio/index.html">About <span class="sr-only">(current)</span></a>
+                    </li>
+                </div>
+                <div class="col-md-1">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../Responsive-Portfolio/portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+                    </li>
+                </div>
+                <div class="col-md-1">            
+                    <li class="nav-item active">
+                        <a class="nav-link" href="../Responsive-Portfolio/contact.html">Contact <span class="sr-only">(current)</span></a>
+                    </li>    
+                </div>
+            <!-- </div> -->
+        </div> <!-- navbar row ends -->
+        
+
+  <!-- Container starts -->
+  <div class="container">    
+        <div class="row top-buffer">   <!-- using this row as a page-header-->
+            <div class="col-md-12"> <!-- row using 12 columns-->
+            <h1>Contact<hr></h1>
+            <!-- <hr> -->
+            </div>
+        </div>
+        <div class=wrapper>
+        <div class="row"> <!-- using this row for "name" label/input -->
+            <div class="col-md-12">
+                        <form>
+                                <div class="form-group">
+                                  <label for="name">Name</label>
+                                  <input type="text" class="form-control" placeholder="John Smith">
+                                </div>
+                                
+                        </form>   
+            </div>    
+        </div> <!--end row 1-->
+
+        <div class="row"> <!-- using this row for "email" label/input -->
+            <div class="col-md-12">
+                    <form>
+                            <div class="form-group">
+                              <label for="exampleInputEmail1">Email address</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="jsmith@example.com">
+                              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            </div>
+                            
+                    </form> 
+            </div>
+        </div> <!--end row 2-->
+
+        <div class="row"> <!-- using this row for "message" label/input-->
+            <div class="col-md-12">  
+                    <form>   
+                        <div class="form-group">
+                        <label for="FormControlMessageArea">Message</label>
+                        <textarea class="form-control" id="FormControlMessageArea" rows="3" placeholder="your message here"></textarea>
+                        </div>
+                    </form>
+            </div>
+
+        </div> <!--end row 3-->
+        
+        <div class="row"> <!-- using this row for "submit" button-->
+            <div class="col-md-12">  
+                    <form> 
+                        <input class="btn btn-primary btn-lg" type="submit" value="Submit">
+                    </form>
+                </form>
+            </div>  
+        </div> <!--end row 3-->
+
+
+        </div>  <!--wrapper ends-->
+      <div class="push"></div>
+    </div> <!--container ends -->
+    
+    
+    <div class="row"> <!-- footer row starts-->
+                <div class="myfooter">
+                <div class="col-md-12">
+                 &copy; 2018 Bayon Enterprises LLC
+                </div>
+                </div>
+    </div>  <!-- footer row ends-->
+  
+</body> <!-- body ends -->
+
+</html>

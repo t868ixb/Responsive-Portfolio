@@ -1,139 +1,66 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-us">
 
 <head>
-
   <meta charset="UTF-8">
-  <title>IBayon Responsive-Portfolio</title>
-   <!-- My CSS.  Although not sure if it's ok to have both...-->
-  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
-  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-  
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    
-  <!-- I can't figure out what's overwriting the backgroud color so I added this to put it back.. -->
-  <style>
-  body {
-    /* background-color: red; */
-    background-color: lightgray;
-}
-  </style>
-  
+  <title>Portfolio | Isaac Bayon</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="../Responsive-Portfolio/assets/css/reset.css"/>
+  <link rel="stylesheet" type="text/css" media="screen" href="../Responsive-Portfolio/assets/css/style.css"/>
 </head>
 
 <body>
-  <!-- The navbar as a row instead of using NAV -->
-        <div class="row">
-                <div class="col-md-9">
-                    <h1>Isaac Bayon</h1>
-                </div>
-                
-                <div class="col-md-1">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="../Responsive-Portfolio/index.html">About <span class="sr-only">(current)</span></a>
-                    </li>
-                </div>
-                <div class="col-md-1">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="../Responsive-Portfolio/portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
-                    </li>
-                </div>
-                <div class="col-md-1">            
-                    <li class="nav-item active">
-                        <a class="nav-link" href="../Responsive-Portfolio/contact.html">Contact <span class="sr-only">(current)</span></a>
-                    </li>    
-                </div>
-            <!-- </div> -->
-        </div> <!-- navbar row ends -->
+
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Isaac Bayon</a>
+      <nav>
+        <a href="../Responsive-Portfolio/index.html">About</a>
+        <a href="../Responsive-Portfolio/portfolio.html">Portfolio</a>
+        <a href="../Responsive-Portfolio/contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Portfolio</h1>
+
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-1.jpg" alt="Word Guess">
         
+        <h3>Word Guess</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
 
-  <!-- Container starts -->
-  <div class="container">    
-        <div class="row top-buffer">   <!-- using this row as a page-header-->
-            <div class="col-md-12"> <!-- row using 12 columns-->
-            <h1>Portfolio <hr></h1>
-            <!-- <hr> -->
-            </div>
-        </div>
-        <div class=wrapper>
-        <div class="row"> <!-- using this row for first two images-->
-            <div class="col-md-3">
-                    <a href="#Hangman.html"><!-- This page does not [yet] exist-->
-                        <img src="../Responsive-Portfolio/assets/images/Hangman.jpeg" alt="Hangman Game" width="255" height="148">
-                        <figure class="box label">Hangman</figure>
-                    </a> 
-            </div>
-            <div class="col-md-3">
-                    <a href="#rph.html">    <!-- This page does not [yet] exist-->    
-                        <img src="../Responsive-Portfolio/assets/images/rpg.jpeg" alt="Role Playing" width="255" height="148">
-                        <figure class="box label">Role Playing</figure>
-                    </a>
-                    
-            </div>
-            <div class="col-md-3">
-                    <!-- <img class="img img-thumbnail" src="http://placehold.it/255x148"> -->
-                    <!-- <figure class="box label">TBD</figure> -->
-            </div>
-            <div class="col-md-3">
-                    <!-- <img class="img img-thumbnail" src="http://placehold.it/255x148"> -->
-                    <!-- <figure class="box label">TBD</figure> -->
-            </div>
-            
-        </div> <!--end row 1-->
-        <div class="row"> <!-- using this row for 2nd row of images-->
-            <div class="col-md-3">
-                    <a href="#Trivia.html">    <!-- This page does not [yet] exist-->     
-                        <img src="../Responsive-Portfolio/assets/images/Trivia.jpeg" alt="Trivia Game" width="255" height="148">
-                        <figure class="box label">Trivia Game</figure>
-                    </a>
-            </div>
-            <div class="col-md-3">
-                    <a href="#Rutgers.html">    <!-- This page does not [yet] exist-->   
-                        <img src="../Responsive-Portfolio/assets/images/Rutgers.jpeg" alt="Rutgers" width="255" height="148">
-                        <figure class="box label">Rutgers</figure>    
-                    </a>
-            </div>
-            <div class="col-md-3">
-                    <!-- <img class="img img-thumbnail" src="http://placehold.it/255x148"> -->
-                    <!-- <figure class="box label">Role Playing</figure> -->
-            </div>
-            <div class="col-md-3">
-                    <!-- <img class="img img-thumbnail" src="http://placehold.it/255x148"> -->
-                    <!-- <figure class="box label">Role Playing</figure> -->
-            </div>
+        <h3>RPG Game</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
 
-        </div> <!--end row 2-->
-        <div class="row"> <!-- using this row for 3rd row of images-->
-                    <div class="col-md-3">
-                            <a href="#rps.html">  <!--This page does not [yet] exist -->
-                                <img src="../Responsive-Portfolio/assets/images/rockpapaerscissors.jpeg" alt="Rock Paper Scissors" width="255" height="148">
-                                <figure class="box label">Rock Paper Scissors</figure>
-                            </a>
-                    </div>
-                    <div class="col-md-3">
-                   
-                    </div>
-                    <div class="col-md-3">
-                    
-                    </div>
-                    <div class="col-md-3">
-                    
-                    </div>
-        </div> <!--end row 3-->
-        </div>  <!--wrapper ends-->
-      <div class="push"></div>
-    </div> <!--container ends -->
-    
-    
-    <div class="row"> <!-- footer row starts-->
-                <div class="myfooter">
-                <div class="col-md-12">
-                 &copy; 2018 Bayon Enterprises LLC
-                </div>
-                </div>
-    </div>  <!-- footer row ends-->
-  
-</body> <!-- body ends -->
+        <h3>Trivia Game</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
+
+        <h3>Rutgers Info Widget</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
+
+        <h3>Rock Paper Scissors</h3>
+      </div>
+
+    </section>
+
+  </div>
+
+  <footer>
+    <div class="container">
+      Copyright &copy; 
+    </div>
+  </footer>
+</body>
 
 </html>

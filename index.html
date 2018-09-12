@@ -1,116 +1,61 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en-us">
 
 <head>
-
   <meta charset="UTF-8">
-  <title>IBayon Responsive-Portfolio</title>
-   <!-- My CSS.  Although not sure if it's ok to have both...-->
-  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
-  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-  
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    
-  <!-- I can't figure out what's overwriting the backgroud color so I added this to put it back.. -->
-  <style>
-  body {
-    /* background-color: red; */
-    background-color: lightgray;
-}
-  </style>
-  
+  <title>About | Isaac Bayon</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css"/>
 </head>
 
 <body>
-  <!-- The navbar as a row instead of using NAV -->
-        <div class="row">
-                <div class="col-md-9">
-                    <h1>Isaac Bayon</h1>
-                </div>
-                
-                <div class="col-md-1">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="../Responsive-Portfolio/index.html">About <span class="sr-only">(current)</span></a>
-                    </li>
-                </div>
-                <div class="col-md-1">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="../Responsive-Portfolio/portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
-                    </li>
-                </div>
-                <div class="col-md-1">            
-                    <li class="nav-item active">
-                        <a class="nav-link" href="../Responsive-Portfolio/contact.html">Contact <span class="sr-only">(current)</span></a>
-                    </li>    
-                </div>
-            <!-- </div> -->
-        </div>
-        <!-- navbar row ends -->
 
-  <!-- Container starts -->
-  <div class="container">    
-        <div class="row top-buffer">   <!-- using this row as a page-header-->
-            <div class="col-md-12"> <!-- row using 12 columns-->
-            <h1>About me <hr></h1>
-            <!-- <hr> -->
-            </div>
-        </div>
-        <div class="row"> <!-- using this row for image and 1st half of content-->
-            <div class="col-md-3">
-                    <img class="img-responsive" src="assets/images/IBayon.JPG" alt="Isaac is out to lunch!" width="200" height="250">
-            </div>
-            <div class="col-md-9">
-                    <P>
-                            Hello!  Welcome to my bio page.  My name is Isaac Bayon, and I have a love of learning.  As a personal challenge, I push myself to learn something new every year.  In the past few years I’ve done the following to force me out of my comfort zone: 
-                            <ul><strong>
-                                
-                                <li>Guitar lessons</li>
-                                <li>Swimming lessons</li>
-                                <li>Ice skating lessons</li>
-                                <li>Full stack developer bootcamp</li>
-                                
-                            </strong></ul>
-                    </P>
-            </div>
-        </div>
-        <div class="row"> <!-- using this row for 2nd half of content-->
-            <div class="col-md-12">
-                    <P>During the day I work for a financial institution in Chicago.  The best way to describe 
-                            what I do is with an air traffic controller analogy.  I’m responsible for safely landing
-                             software code in the production environment by ensuring code deployments don’t crash 
-                             into each other as they reach their intended location.
-                    
-                        </P>
-                        <P>For most of my professional career I’ve worked in Technology Operations.  I’ve had an 
-                            opportunity to work with code developers and product owners to support their final product 
-                            once it’s gone live.  I’ve also had the opportunity to manage teams of people in which my 
-                            focus was to ensure their professional success and the success of the goals of the business
-                             teams we supported.
-                    
-                        </P>
-                        <p>
-                                For fun I like to read and hike –sometimes both at the same time &#9786;.  As a family 
-                                we visit one or more National parks a year.  It’s a good time to reflect on all the 
-                                natural wonders of our planet and to also take time to replenish the mind and soul.
-            </div>
-        </div>
-      <div class="push"></div>
-    </div> <!--container ends -->
-    
-    <!-- footer row starts-->
-    <div class="row">
-                <div class="myfooter">
-                <div class="col-md-12">
-                 &copy; 2018 Bayon Enterprises LLC
-                </div>
-                </div>
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Isaac Bayon</a>
+      <nav>
+        <a href="../Responsive-Portfolio/index.html">About</a>
+        <a href="../Responsive-Portfolio/portfolio.html">Portfolio</a>
+        <a href="../Responsive-Portfolio/contact.html">Contact</a>
+      </nav>
     </div>
-    <!--footer row ends-->
+  </header>
 
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>About Me</h1>
 
-</div> <!--body ends -->
-  
+      <img src="../Responsive-Portfolio/assets/images/IBayon.JPG" class="auth-image" alt="Your Name">
+
+      <p>
+        Hello!  Welcome to my bio page.  My name is Isaac Bayon, and I have a love of learning.  As a personal challenge, I push myself to learn something new every year.  In the past few years I’ve done the following to force me out of my comfort zone: 
+        <ul>
+            
+            <li>Guitar lessons</li>
+            <li>Swimming lessons</li>
+            <li>Ice skating lessons</li>
+            <li>Full stack developer bootcamp</li>
+            
+        </ul>
+      </p>
+
+      <p>
+        During the day I work for a financial institution in Chicago.  The best way to describe 
+        what I do is with an air traffic controller analogy.  I’m responsible for safely landing software code in the production environment by ensuring code deployments don’t crash into each other as they reach their intended location.
+      </p>
+
+      <p>For most of my professional career I’ve worked in Technology Operations.  I’ve had an opportunity to work with software engineers and product owners to support their final product once it’s gone live.  I’ve also had the opportunity to manage teams of people in which my focus is to ensure their professional success and the success of the goals of the business teams we supported.</p>
+
+    </section>
+
+  </div>
+
+  <footer>
+    <div class="container">
+      Copyright &copy; 
+    </div>
+  </footer>
 </body>
 
 </html>

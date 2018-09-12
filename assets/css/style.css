@@ -78,7 +78,7 @@ h3 {
 
 nav {
   float: right;
-  margin-top: 25px;
+  margin-top: 35px;
 }
 
 nav a {
@@ -259,4 +259,14 @@ input[type=submit] {
       float:none;
       width: 100%;
     }
-}
+    
+    /* to force the links under the name element */
+  nav{
+  width: 100%
+  }
+    /* to stretch the logo (name) element on a small screen and force the links to next line */
+  #logo {
+  width:50%;
+  }
+
+  }
